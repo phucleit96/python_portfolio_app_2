@@ -18,6 +18,7 @@ def validate_message_and_email(message, user_email):
 
 st.header("Contact Me")
 
+
 with st.form(key='email_form'):
     st.image('fulllogo.png', width=350)
     user_subject = st.text_input("Email Subject", key='subject')
