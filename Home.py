@@ -19,7 +19,7 @@ with col2:
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
-df = pandas.read_csv('data.csv', sep=";")
+df = pandas.read_csv('data.csv', sep=",")
 
 with col3:
     for index, row in df[:10].iterrows():
