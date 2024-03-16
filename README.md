@@ -1,7 +1,7 @@
 # Python Project Web App
 
 This is a web application built with Python to showcase my Python projects.
-
+[Live Demo](https://phucleit96-python-portfolio-app-2-home-eyxbsb.streamlit.app/)
 ## Features
 - Homepage: Display the projects I did and the source codes included.
 - Contact form: Users can send an email through the contact form. The email is sent using the SMTP protocol.
