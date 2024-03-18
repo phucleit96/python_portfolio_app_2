@@ -26,7 +26,7 @@ with st.form(key='email_form'):
     with col2:
         st.info("Github: https://github.com/phucleit96")
         st.info("Leetcode: https://leetcode.com/phucleit96/")
-        st.info("Data Science 365: learn.365datascience.com/profile/phuc-le/")
+        st.info("Data Science 365: https://learn.365datascience.com/profile/phuc-le/")
     user_subject = st.text_input("Email Subject", key='subject')
     user_email = st.text_input("Your Email Address", key='email')
     message = st.text_area("Your message", key='message')
