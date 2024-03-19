@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 import os
 
-ASTRO_KEY = "tIvL1UfBxHGIgbv3h0ppINQUUJvKmQUlf0qSeWtm"
+ASTRO_KEY = os.getenv("ASTRO_KEY")
 url = f"https://api.nasa.gov/planetary/apod?api_key={ASTRO_KEY}"
 response = requests.get(url)
 content = response.json()
