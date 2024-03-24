@@ -7,7 +7,7 @@ from datetime import datetime
 st.title('Motion Detector')
 
 # Create a text input field for the user to enter their location
-location = st.text_input("Location: ")
+location = st.text_input("Location (not required): ")
 
 # Create a button that starts the camera when clicked
 start = st.button('Start Camera')
