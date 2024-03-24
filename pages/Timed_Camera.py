@@ -33,7 +33,7 @@ if start:
         check, frame = camera.read()
 
         # Convert the frame color from BGR to RGB
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
         # Add the location and day text to the frame
 
